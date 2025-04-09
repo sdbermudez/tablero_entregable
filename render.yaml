@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tablero-entregable
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    branch: main
+    autoDeploy: true
